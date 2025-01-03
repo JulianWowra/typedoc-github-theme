@@ -6,7 +6,7 @@ This [TypeDoc](https://github.com/TypeStrong/typedoc) theme is designed to provi
 
 ## Example
 
-[![Example](./example.png)](https://killerjulian.github.io/typedoc-github-theme/)
+[![Example](./example.png)](https://julianwowra.github.io/typedoc-github-theme/)
 
 ## Usage
 
@@ -38,10 +38,10 @@ npx typedoc src --plugin typedoc-github-theme
 
 ## Author
 
-👤 **KillerJulian <info@killerjulian.de>**
+👤 **Julian Wowra <development@julianwowra.de>**
 
-- Github: [@KillerJulian](https://github.com/KillerJulian)
+- Github: [@JulianWowra](https://github.com/JulianWowra)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check the [issues page](https://github.com/KillerJulian/typedoc-github-theme/issues). You can also take a look at the [contributing guide](https://github.com/KillerJulian/typedoc-github-theme/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check the [issues page](https://github.com/JulianWowra/typedoc-github-theme/issues). You can also take a look at the [contributing guide](https://github.com/JulianWowra/typedoc-github-theme/blob/master/CONTRIBUTING.md).

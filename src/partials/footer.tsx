@@ -24,7 +24,7 @@ function generatorDisplay(context: GitHubThemeContext) {
 				TypeDoc
 			</a>
 			{' with '}
-			<a href="https://github.com/KillerJulian/typedoc-github-theme" target="_blank">
+			<a href="https://github.com/JulianWowra/typedoc-github-theme" target="_blank">
 				typedoc-github-theme
 			</a>
 		</p>
