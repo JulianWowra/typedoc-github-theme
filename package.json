@@ -9,19 +9,19 @@
 	"homepage": "https://julianwowra.github.io/typedoc-github-theme/",
 	"author": "Julian Wowra <development@julianwowra.de>",
 	"license": "MIT",
-	"packageManager": "pnpm@9.14.3",
+	"packageManager": "pnpm@9.15.2",
 	"dependencies": {},
 	"peerDependencies": {
-		"typedoc": "^0.27.1"
+		"typedoc": "^0.27.6"
 	},
 	"devDependencies": {
-		"@types/node": "^18.19.67",
-		"eslint": "9.15.0",
+		"@types/node": "^18.19.69",
+		"eslint": "9.17.0",
 		"eslint-config-prettier": "9.1.0",
-		"prettier": "3.4.1",
-		"typedoc": "~0.27.1",
+		"prettier": "3.4.2",
+		"typedoc": "~0.27.6",
 		"typescript": "5.7.2",
-		"typescript-eslint": "8.16.0"
+		"typescript-eslint": "8.19.0"
 	},
 	"scripts": {
 		"build": "pnpm build:lib && pnpm build:docs",
