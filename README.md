@@ -44,4 +44,4 @@ npx typedoc src --plugin typedoc-github-theme
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check the [issues page](https://github.com/JulianWowra/typedoc-github-theme/issues). You can also take a look at the [contributing guide](https://github.com/JulianWowra/typedoc-github-theme/blob/master/CONTRIBUTING.md).
+Contributions, issues and feature requests are welcome!<br />Feel free to check the [issues page](https://github.com/JulianWowra/typedoc-github-theme/issues). You can also take a look at the [contributing guide](https://github.com/JulianWowra/typedoc-github-theme/blob/main/CONTRIBUTING.md).

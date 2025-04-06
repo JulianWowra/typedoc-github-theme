@@ -33,7 +33,7 @@ Create a pull request. Ideally your pull request should include these things:
 - Tests for the things you've changed/added
 - Good documentation / Comments in the code
 
-Now submit your pull request to merge from your fork to master. Then I will look at your request and if necessary suggest changes, improvements or alternatives.
+Now submit your pull request to merge from your fork to main. Then I will look at your request and if necessary suggest changes, improvements or alternatives.
 
 ---
 
