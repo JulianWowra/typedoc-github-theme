@@ -13,15 +13,15 @@ This [TypeDoc](https://github.com/TypeStrong/typedoc) theme is designed to provi
 **Install the package with your favourite package manager:**
 
 ```text
-npm install typedoc-github-theme
+npm install typedoc-github-theme --save-dev
 ```
 
 ```text
-pnpm install typedoc-github-theme
+pnpm add typedoc-github-theme --save-dev
 ```
 
 ```text
-yarn add typedoc-github-theme
+yarn add typedoc-github-theme --dev
 ```
 
 **Use the theme when generating your documentation:**
