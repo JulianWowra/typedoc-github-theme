@@ -10,7 +10,7 @@ export function load(app: Application) {
 	app.on('bootstrapEnd', () => {
 		if (app.options.isSet('theme') && app.options.getValue('theme') !== 'typedoc-github-theme') {
 			return app.logger.warn(
-				`The theme'typedoc-github-theme' is not used because another theme (${app.options.getValue('theme')}) was specified!`
+				`The theme 'typedoc-github-theme' is not used because another theme (${app.options.getValue('theme')}) was specified!`
 			);
 		}
 

@@ -37,6 +37,6 @@ export class GitHubTheme extends DefaultTheme {
 	}
 
 	getRenderContext(pageEvent: PageEvent<Reflection>) {
-		return new GitHubThemeContext(this, pageEvent, this.application.options);
+		return new GitHubThemeContext(this.router, this, pageEvent, this.application.options);
 	}
 }
