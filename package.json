@@ -12,20 +12,19 @@
 	"publishConfig": {
 		"provenance": true
 	},
-	"packageManager": "pnpm@10.7.1",
-	"dependencies": {},
+	"packageManager": "pnpm@10.15.0",
 	"peerDependencies": {
 		"typedoc": "~0.28.0"
 	},
 	"devDependencies": {
-		"@eslint/js": "9.24.0",
-		"@types/node": "^18.19.86",
-		"eslint": "9.24.0",
-		"eslint-config-prettier": "10.1.1",
-		"prettier": "3.5.3",
-		"typedoc": "~0.28.1",
-		"typescript": "5.8.3",
-		"typescript-eslint": "8.29.0"
+		"@eslint/js": "9.33.0",
+		"@types/node": "^18.19.123",
+		"eslint": "9.33.0",
+		"eslint-config-prettier": "10.1.8",
+		"prettier": "3.6.2",
+		"typedoc": "~0.28.10",
+		"typescript": "5.9.2",
+		"typescript-eslint": "8.40.0"
 	},
 	"scripts": {
 		"build": "pnpm build:lib && pnpm build:docs",
