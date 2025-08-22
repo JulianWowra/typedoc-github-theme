@@ -10,9 +10,9 @@ export class GitHubTheme extends DefaultTheme {
 		super(renderer);
 
 		// copy the complete assets
-		renderer.on(RendererEvent.END, () => {
+		renderer.on(RendererEvent.END, (event) => {
 			const from = resolve(dirname(fileURLToPath(import.meta.url)), '../src/assets/');
-			const to = resolve(this.application.options.getValue('out'), 'assets/');
+			const to = resolve(event.outputDirectory, 'assets/');
 
 			cpSync(from, to, { recursive: true });
 		});
