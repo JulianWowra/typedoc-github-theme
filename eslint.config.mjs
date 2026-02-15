@@ -1,13 +1,14 @@
 import eslint from '@eslint/js';
 import prettierConfig from 'eslint-config-prettier';
+import { defineConfig } from 'eslint/config';
 import tseslint from 'typescript-eslint';
 
-export default tseslint.config(
+export default defineConfig(
 	{
 		ignores: ['*', '!src']
 	},
 	eslint.configs.recommended,
-	...tseslint.configs.recommendedTypeChecked,
+	tseslint.configs.recommendedTypeChecked,
 	{
 		languageOptions: {
 			parserOptions: {

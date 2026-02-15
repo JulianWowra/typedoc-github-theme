@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   push:
     tags:
-      - 'v*'
+      - 'v*.*.*'
 
 jobs:
   npm:
@@ -17,13 +17,15 @@ jobs:
 
     steps:
       - name: 📥 Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: 📦 Install pnpm
         uses: pnpm/action-setup@v4
+        with:
+          run_install: false
 
       - name: 🛠️ Setup Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: 'latest'
           cache: 'pnpm'
@@ -35,18 +37,14 @@ jobs:
         run: pnpm build:lib
 
       - name: 📦 Pack library
-        run: pnpm pack -out package.tgz
+        run: pnpm pack --out package.tgz
 
-      - name: ☁️ Publish to NPM
-        uses: JS-DevTools/npm-publish@v3
-        with:
-          token: ${{ secrets.NPM_TOKEN }}
+      - name: ☁️ Publish to npm (OIDC)
+        run: npm publish package.tgz --provenance --access public
 
       - name: ☁️ Create a release
         uses: softprops/action-gh-release@v2
-        if: startsWith(github.ref, 'refs/tags/')
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        if: github.ref_type == 'tag'
         with:
           name: Release ${{ github.ref_name }}
           files: package.tgz

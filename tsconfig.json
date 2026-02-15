@@ -1,4 +1,6 @@
 {
+	"$schema": "https://json.schemastore.org/tsconfig",
+	"include": ["src"],
 	"compilerOptions": {
 		"allowSyntheticDefaultImports": true,
 		"alwaysStrict": true,
@@ -24,6 +26,5 @@
 		"strictNullChecks": true,
 		"strictPropertyInitialization": true,
 		"target": "ES2022"
-	},
-	"include": ["src"]
+	}
 }

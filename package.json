@@ -9,9 +9,6 @@
 	"homepage": "https://julianwowra.github.io/typedoc-github-theme/",
 	"author": "Julian Wowra <development@julianwowra.de>",
 	"license": "MIT",
-	"publishConfig": {
-		"provenance": true
-	},
 	"packageManager": "pnpm@10.29.3",
 	"peerDependencies": {
 		"typedoc": "~0.28.0"
